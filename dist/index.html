@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Blackhawks Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+
+<main id="main">
+  <header>
+    <H1 id="title">Chicago Blackhawks Survey Form</h1>
+  </header>
+
+  <p id="description">From 2009-2015 the Chicago Blackhawks had unparalled success in the NHL. The Blackhawks won 3 Stanley Cups, a President's Trophy, made it to the West Conference Final an additional 2 times, as well as many players capturing individual awards. The question
+    is, what was your favorite year during the Blachawks' dominance of the NHL?</p>
+
+  <div class="wrapper">
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label">*Name:</label>
+      <input id="name" type="text" name="firstname" placeholder="Enter your name.." required>
+      <br>
+      <br>
+      <label for="email" id="email-label">*Email:</label>
+      <input id="email" type="email" name="emailaddress" placeholder="Enter your email.." required>
+      <br>
+      <br>
+      <label for="number" id="number-label">*Age:</label>
+      <input id="number" type="number" min="1" max="125" placeholder="Enter age" required>
+      <br>
+      <br>
+      <label for="dropdown" id="fan">*Are you a Blackhawks fan?</label>
+      <select id="dropdown">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option> 
+    </select>
+      <br>
+      <br>
+      <label id="firstquestion-label">*Do you hate the St. Louis Blues?</label>
+
+      <input type="radio" name="yesno" value="yes">Yes</label>
+      <input type="radio" name="yesno" value="no">No</label>
+      <br>
+      <br>
+      <label id="secondquestion-label">*Does Detroit suck?</label>
+      <input type="radio" name="yesno" value="Yes">Yes</label>
+      <input type="radio" name="yesno" value="Hell yes">Hell yes</label>
+      <br>
+      <br>
+      <label id="thirdquestion-label">What is your favorite year during the Blachawks' Stanley Cup runs?</label>
+      <br>
+
+      <label class="years">2009</label>
+      <input type="checkbox" name="years" value="2009">
+
+      <label class="years">2010</label>
+      <input type="checkbox" name="years" value="2010">
+
+      <label class="years">2011</label>
+      <input type="checkbox" name="years" value="2011">
+
+      <label class="years">2012</label>
+      <input type="checkbox" name="years" value="2012">
+
+      <label class="years">2013</label>
+      <input type="checkbox" name="years" value="2013">
+
+      <label class="years">2014</label>
+      <input type="checkbox" name="years" value="2014">
+
+      <label class="years">2015</label>
+      <input type="checkbox" name="years" value="2015">
+      <br>
+      <br>
+      <textarea name="message" rows="10" cols="30" placeholder="Type your message here"></textarea><br><br>
+
+      <br>
+      <br>
+      <button class="button" id="submit" type="submit">Submit</button>
+
+    </form>
+  </div>
+  <br>
+  <br>
+  <div>
+    <img id="logo" src="https://images-na.ssl-images-amazon.com/images/I/51ojmH4ofyL.jpg">
+
+    <img id="logo-2" src="http://media.nj.com/njo_top_stories/photo/blackhawks-lift-stanley-cup-2010-wire-90ddf81cc4545215_large.jpg">
+  </div>
+
+  <br>
+  <br>
+
+  <footer>
+    Blackhawks Survey Form, created by Matt McCoy
+  </footer>
+
+</main>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
